@@ -1,27 +1,9 @@
-<script setup>
-</script>
-
-<template>
-  <header>
-    <a href="\App.vue">
-      <img src=\android-chrome-192x192.png alt="Favicon" style="width: 64px; height: 64px;">
-    </a>
-    <a href="\App.vue">
-      <h1>BruceBlog</h1>
-    </a>
-  </header>
-  <div>
-    <li><span>About me</span></li>
-    <li><span>Projects</span></li>
-    <li><span>Gallery</span></li>
-  </div>
-</template>
-
-<style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.cdnfonts.com/css/minecraft-4');
   
-
+  html, body{
+    background-color: #f0f0f0;
+  }
   header {
     display: flex;
     align-items: center;
@@ -70,5 +52,3 @@
   li span:hover::after {
     width: 100%; /* Expand the underline on hover */
   }
-</style>
-
