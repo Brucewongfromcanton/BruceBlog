@@ -1,8 +1,120 @@
-div {
-    text-align: left;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 24px;
+/* General Page Layout */
+.page {
     max-width: 800px;
-    margin: 60px auto;
-    height: 90vh;
+    margin: 0 auto;
+    padding: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    color: black; /* Match text color */
+}
+
+/* Profile Header */
+.profile-header {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.profile-photo img {
+    border-radius: 50%;
+    border: 2px solid #ccc; /* Add a subtle border for consistency */
+}
+
+h1 {
+    font-size: 2rem; /* Match heading size with style_aboutme.css */
+    margin: 0;
+    font-weight: 600;
+    color: black; /* Ensure consistent heading color */
+}
+
+.byline {
+    color: #666; /* Subtle gray for secondary text */
+    margin: 0.25rem 0;
+    font-size: 1rem;
+}
+
+.badge {
+    margin-top: 0.5rem;
+}
+
+.website a {
+    color: #0066cc; /* Match link color */
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.website a:hover {
+    text-decoration: underline; /* Add hover effect for links */
+}
+
+/* Sections */
+.profile-section {
+    margin-bottom: 2.5rem;
+}
+
+h3 {
+    font-size: 1.5rem; /* Match section heading size */
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 0.5rem;
+    font-weight: 600;
+    color: black;
+}
+
+/* Experience Entries */
+.experience {
+    display: flex;
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.year {
+    min-width: 100px;
+    color: #666; /* Subtle gray for secondary text */
+    font-size: 1rem;
+}
+
+.title {
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+    font-size: 1rem;
+}
+
+.title a {
+    color: #0066cc; /* Match link color */
+    text-decoration: none;
+}
+
+.title a:hover {
+    text-decoration: underline; /* Add hover effect for links */
+}
+
+.link-arrow {
+    margin-left: 0.25rem;
+    color: #999; /* Subtle gray for arrows */
+}
+
+.location {
+    color: #666;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+
+.description p {
+    margin: 0.5rem 0;
+    line-height: 1.6; /* Improve readability */
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .profile-header {
+        flex-direction: column;
+        text-align: center;
+    }
+    .experience {
+        flex-direction: column;
+    }
+    .year {
+        margin-bottom: 0.5rem;
+    }
 }

@@ -3,15 +3,15 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="public/favicon.ico">
     <link rel="icon" type="image/png" sizes="32x32" href="public/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="public/favicon-16x16.png">
     <link rel="manifest" href="public/site.webmanifest">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume</title>
     <link rel="stylesheet" href="base.css">
     <link rel="stylesheet" href="style_resume.css">
-</head>
+  </head>
 
 <body>
     <header>
@@ -19,28 +19,94 @@
             <img src=public/android-chrome-192x192.png alt="Favicon" style="width: 64px; height: 64px;">
         </a>
     </header>
-    <div>
-        <h1>Bruce Wong</h1>
-        <h2>Software Developer</h2>
-        <h3>Contact</h3>
-        <p>
-            Email <a href="mailto: brucewonghh@outlook.com">brucewonghh@outlook.com</a>
-        </p>
-        <p>
-            Github <a href="https://github.com/Brucewongfromcanton">Brucewongfromcanton</a>
-        </p>
-        <h3>Education</h3>
-        <p>
-            2023 - 2026 Swinburne University of Technology           
-        </p>
-        <p>
-            Bachelor of Computer Science (Software Development)
-        </p>
-        <h3>Work Experience</h3>
-        <p>
-            Australian Centre of Prevention of Cervical Cancer (ACPCC)
-        </p>
-        <h3>Volunteer</h3>
+    <div class="page">
+        <div class="profile">
+            <div class="profile-header">
+                <div class="profile-photo">
+                    <img src="profile.jpg" alt="Your Name" width="92" height="92">
+                </div>
+                <div>
+                    <h1>Bruce Wong</h1>
+                    <div class="byline">He/him</div>
+                    <div class="badge">
+                        <div class="website">
+                            <a href="https://yourwebsite.com" target="_blank">yourwebsite.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact Section -->
+            <section class="profile-section">
+                <h3>Contact</h3>
+                <div class="contacts">
+                    <div class="experience">
+                        <div class="year"><span>Email</span></div>
+                        <div>
+                            <div class="title">
+                                <a href="mailto:your@email.com" target="_blank">your@email.com</a>
+                                <span class="link-arrow">→</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="experience">
+                        <div class="year"><span>GitHub</span></div>
+                        <div>
+                            <div class="title">
+                                <a href="https://github.com/yourusername" target="_blank">yourusername</a>
+                                <span class="link-arrow">→</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Education Section -->
+            <section class="profile-section">
+                <h3>Education</h3>
+                <div class="experiences">
+                    <div class="experience">
+                        <div class="year"><span>2020 — Present</span></div>
+                        <div>
+                            <div class="title">
+                                <a href="#" target="_blank">Your Job Title at Company</a>
+                                <span class="link-arrow">→</span>
+                            </div>
+                            <div class="location">Remote / Location</div>
+                            <div class="description">
+                                <p>Description of your role and achievements.</p>
+                                <p>Highlight key contributions.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Add more jobs as needed -->
+                </div>
+            </section>
+
+            <!-- Work Experience -->
+            <section class="profile-section">
+                <h3>Work Experience</h3>
+                <div class="experiences">
+                    <div class="experience">
+                        <div class="year"><span>2020 — Present</span></div>
+                        <div>
+                            <div class="title">
+                                <a href="#" target="_blank">Your Job Title at Company</a>
+                                <span class="link-arrow">→</span>
+                            </div>
+                            <div class="location">Remote / Location</div>
+                            <div class="description">
+                                <p>Description of your role and achievements.</p>
+                                <p>Highlight key contributions.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Add more jobs as needed -->
+                </div>
+            </section>
+
+
+        </div>
     </div>
 </body>
 
